@@ -53,9 +53,16 @@ const HomeScreen = props => {
       onPress={() => props.navigation.navigate('Square')}
     />
     <Button
-    //inserir um botão para seguir para aba de modificar o RGB em um quadrado
       title="Go to Square with Reduce Demo"  
       onPress={() => props.navigation.navigate('SquareReduce')}
+    />
+    <Button
+      title="Go to Text Demo"  
+      onPress={() => props.navigation.navigate('Text')}
+    />
+        <Button
+      title="Go to Box Demo"  
+      onPress={() => props.navigation.navigate('Box')}
     />
   </View>
   );
